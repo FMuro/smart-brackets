@@ -10,14 +10,14 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:smart-brackets.helloWorld"
+    "onCommand:smart-brackets.swapBrackets"
   ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "smart-brackets.helloWorld",
-        "title": "Hello World"
+        "command": "smart-brackets.swapBrackets",
+        "title": "Swap brackets"
       }
     ]
   },
